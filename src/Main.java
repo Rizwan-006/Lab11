@@ -87,11 +87,11 @@ public class Main {
                 new MusicPlayer().setVisible(true);
             });
 
-//            gbc.gridy = 8;
-//            addStyledButton(panel, gbc, "Task 4: Attendance System", e -> {
-//                mainMenu.dispose();
-//                new AttendanceSystem().setVisible(true);
-//            });
+            gbc.gridy = 8;
+            addStyledButton(panel, gbc, "Task 4: Attendance System", e -> {
+                mainMenu.dispose();
+                new AttendanceSystem().setVisible(true);
+            });
 //
 //            gbc.gridy = 9;
 //            addStyledButton(panel, gbc, "Task 5: Interactive Dashboard", e -> {
