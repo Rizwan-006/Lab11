@@ -114,7 +114,6 @@ public class TextEditor extends JFrame {
             }
         });
 
-        // Add components
         add(toolBar, BorderLayout.NORTH);
         add(scrollPane, BorderLayout.CENTER);
         add(statusLabel, BorderLayout.SOUTH);
